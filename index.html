@@ -1,38 +1,54 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Простой сайт</title>
-    <!--<link rel="stylesheet" href="styles.css">--> <!-- Подключаем CSS файл -->
+    <title>HomePro</title>
+    <link rel="stylesheet" href="css/main.css"/>
 </head>
-<body>
-<header>
-    <h1>Добро пожаловать на мой сайт</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Контакты</a></li>
+<body class="page_body">
+<header class="header">
+<div class="header_top">
+<div Class="container header_container header_top-container">
+    <a href="/" class="logo">
+        <img src="img/logo.svg" alt="HomePro">
+    </a>
+    <div class="header_details">
+        <ul class="list-reset header_list">
+            <li class="header_item">
+                <a href="#" class="header_link">About Us</a>
+            </li>
+            <li class="header_item">
+                <a href="#" class="header_link">Service</a>
+            </li>
+            <li class="header_item">
+                <a href="#" class="header_link">Our Blog</a>
+            </li>
+            <li class="header_item">
+                <a href="#" class="header_link">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+   <div class="header_bottom">
+<div class="container header_container header_bottom-container">
+    <nav class="nav">
+        <ul class="list-reset nav_list">
+            <li class="nav_item">
+                <a href="#" class="nav_link">Maintenances</a>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link">Repairs</a>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link">Improvements</a>
+            </li>
         </ul>
     </nav>
+</div>
+   </div>
 </header>
-
-<main>
-    <section>
-        <h2>О нас</h2>
-        <p>Это пример простого сайта, который демонстрирует базовые навыки верстки HTML и CSS.</p>
-    </section>
-
-    <section>
-        <h2>Наши услуги</h2>
-        <p>Здесь можно описать предлагаемые услуги или продукцию.</p>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2024 Мой сайт. Все права защищены.</p>
-</footer>
 </body>
 </html>
